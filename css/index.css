@@ -45,29 +45,34 @@ h1 {
 .search {
 	text-align: left;
 	margin-top: 30px;
-	margin-left: 20px;
 	position: relative;
 }
+/*
+.divinput {
+
+	display: inline;
+
+}*/
 input {
 	width: 550px;
 	height: 35px;
 	color: darkgreen;
-	/*background-color : lightgray;*/
+	background-color : #cedd9a;
 	border-radius: 3px; 
 	border: 0px;
 	padding-left: 5px;
 	margin: 0px;
+	padding: 5px;
 	
 }
 
 button {
 	width: 50px;
-	height: 35px;
+	height: 45px;
 	border: 0px;
 	padding: 0px;
 	margin: 0px;
-	display: inline;
-
+	position: absolute;
 }
 
 
@@ -104,27 +109,29 @@ li a:hover {
 
 footer {
 	width: 100%;
-	height: 100px;
+	height: 150px;
 	background-color: rgb(58,58,58);
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 	font-size: 20px;
+	padding-top: 1px;
 }
 
 #footer-wrapper {
-	height: 100%;
+	height: 100px;
 	width: 1000px;
 	margin: 0 auto;
 	margin-top: 15px;
+	/*text-align: center;*/
 }
 
 .footer-leftcol {
 	width: 55%;
-	height: 100%;
 	float: left;
 	background:url("../images/books.MD_footer_logo_icon.png") no-repeat;
-	
+	margin: 0 auto;
 	margin-right: 10px;
-
+	margin-top: 40px;
+	height: 50px;
 }
 
 
@@ -139,9 +146,10 @@ footer {
 }
 
 .footer-rightcol {
-
 	float: right;
 	font-size: 15px;
+	margin: 0 auto;
+	margin-top: 40px;
 }
 
 
