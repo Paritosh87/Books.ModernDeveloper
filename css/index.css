@@ -202,6 +202,9 @@ display: block;
 /******************************************************************************
  *  Main **********************************************************************
  ******************************************************************************/
+.wrapper {
+    position: relative;
+}
 
 main {
     font-family: Roboto;
@@ -218,6 +221,7 @@ section {
     margin: 20px auto;
     padding: 0;
     width: 1200px;
+    position: relative;
 }
 
 section .wrapper {
@@ -229,6 +233,7 @@ section .wrapper {
     float: left;
     padding: 36px;
     width: 768px;
+    position: relative;
 }
 
 .content h2 {
@@ -477,7 +482,129 @@ section footer li:last-of-type {
     padding: 0;
 }
 
+/******************************************************************************
+ * Section Slideout ***********************************************************
+ ******************************************************************************/
 
+ .slideout-overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(224, 224, 224, .85);
+ }
+
+ .slideout {
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 2px;
+    width: 700px;
+    height: 100%;
+    border: 2px solid #cbe9e7;
+    float: right;
+    padding: 40px;
+    position: relative;
+ }
+
+ .slideout input {
+    height: 48px;
+    background-color: #fff;
+    border: 1px solid #d8d8d8;
+    width: 100%;
+    font-size: 1rem;
+ }
+
+.slideout span {
+    color: #000;
+}
+
+span.search-highlight{
+    color: #000;
+    background-color: #d5edd2;
+    line-height: 1.5;
+    display: inline-block;
+ }
+
+span.page {
+    float: right;
+    padding-right: 20px;
+}
+
+.slideout ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 30px;
+    overflow: auto;
+    height: 310px;
+ }
+
+.slideout li {
+    padding: 5px;
+    float:none;
+}
+/* start scrollbar style */
+.slideout ul::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+/* Track */
+.slideout ul::-webkit-scrollbar-track {
+    -webkit-box-shadow: 0; 
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background-color: #eaeaea;
+    width: 2px;
+}
+ 
+/* Handle */
+.slideout ul::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #b7b7b7; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+.slideout ul::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(255,0,0,0.4); 
+}
+
+.slideout-nav {
+    position: absolute;
+    right: -255px;
+    top: 210px;
+    transform: rotate(90deg);
+  
+}
+
+.slideout-nav ul{
+    padding: 0;
+   
+}
+
+.slideout-nav li {
+    display: inline-block;
+    padding: 10px 15px;
+    color: #47a2af;
+    float: none;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    cursor: default;
+
+}
+
+.slideout-nav li.active, .slideout-nav li:hover {
+    background-color: #cbe9e7;
+}
+
+.slideout-nav li.close, .slideout-nav li.close:hover {
+    color: #000;
+    background-color: transparent;
+}
+
+
+.hidden {
+    display: none;
+}
 
 /******************************************************************************
 * Clear Fix ******************************************************************

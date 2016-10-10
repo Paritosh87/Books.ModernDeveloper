@@ -1,109 +1,251 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Book store</title>
-	<link href="css/index.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/font-awesome-4.6.3/css/font-awesome.min.css">
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,300italic|Roboto+Slab:400,300,700,100' rel='stylesheet' type='text/css'>
+    <title>Book store</title>
+    <link href="css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome-4.6.3/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,300italic|Roboto+Slab:400,300,700,100' rel='stylesheet' type='text/css'>
 </head>
+
 <body>
-	<header>
-		<div class="header-content">
-			<h1>Books.Modern Developer</h1>
-			<h1 class="tag-line">The Largest Resource of Web and Mobile Development and Programming Books</h1>
-			<div class="search">		
-				<input type="text" placeholder="Search books by any  keyword or title..." class="txt"/>
-				<button ><i class="fa fa-search fa-2x"></i></button>
-			</div>
-		</div>
-	</header>
-	<nav>
-		<div class="row-center">
-			<ul>
-				  <li><a href="#UI">UI/UX Design</a></li>
-				  <li><a href="#Web">Web Programming</a></li>
-				  <li><a href="#FE">Frontend Development</a></li>
-				  <li><a href="#JS">Javascript</a></li>
-				  <li><a href="#Mobile">Mobile Development</a></li>
-				  <li><a href="#Backend">Backend Development</a></li>
-			</ul>
-		</div>
-	</nav>
-		<main>
-	        <section>
-	            <div class="wrapper cf">
-	                <div class="content">
-	                    <header>
-	                        <h2>Eloquent JavaScript:<br>A Modern Introduction to Programming</h2>
-	                        <ul>
-	                            <li class="author">by <a href="#">Marijn Haverbeke</a></li>
-	                            <li><a href="#" class=" btn follow">Follow</a></li>
-	                            <li>Published on 2015</li>
-	                            <li>2nd edition</li>
-	                        </ul>
-	                    </header>
-	                    <div class="summary">
-	                        <p>JavaScript lies at the heart of almost evey modern web application, from soical apps to the newest browser-based games. Though simple for begginers to pick up an dplay with, JavaScript is a flexible, complex language that you can use to build full-scale applications.</p>
-	                        <p>Eloquent JavaScript, 2nd Edition dives deep into the JavaScript language to show you how to write beautiful, effective code.</p>
-	                        <a href="#">Read More</a>
-	                    </div>
-	                    <div class="rating">
-	                        <div class="scale">
-	                            <ul>
-	                                <li class="easy cf">
-	                                    <div class="cf">
-	                                    <p>Easy to follow</p><p class="amount">29</p><p class="percent cf">80%</p>
-	                                    </div>
-	                                    <div class="progress-container">
-	                                        <div class="progress-bar" style="width:80%"></div>
-	                                    </div>
-	                                </li>
-	                                <li class="comprehensive cf">
-	                                <div class="cf">
-	                                <p>Comprehensive</p><p class="amount">6</p><p class="percent">75%</p>
-	                                 </div>  
-	                                    <div class="progress-container">
-	                                        <div class="progress-bar" style="width:75%"></div>
-	                                    </div>
-	                                </li>
-	                                <li class="examples">
-	                                    <div class="cf">
-	                                        <p>Enough Examples</p><p class="amount">18</p><p class="percent">95%</p>
-	                                     </div>  
-	                                    <div class="progress-container"><div class="progress-bar" style="width:95%"></div></div>
-	                                </li>
-	                            </ul>
-	                        </div>
-	                        <ul>
-	                            <li><a href="#">Rate the Book</a></li>
-	                            <li><a href="#">Table of Contents</a></li>
-	                            <li><a href="#">Search Inside</a></li>
-	                        </ul>
-	                    </div>
-	                </div>
-	                <div class="cover"><img src="images/book-covers/eloquent-javascript.jpg" alt=""></div>
-	            </div>
-	            <footer class="cf">
-	                <ul>
-	                    <li><a href="#" class="price gumroad">$28.40</a></li>
-	                    <li><a href="#" class="price amazon">$29.65</a></li>
-	                    <li><a href="#" class="price publisher manning">28.70</a></li>
-	                    <li><a href="#" class="bookmark"></a></li>
-	                </ul>
-	                
-	            </footer>
-	        </section>
-	    </main>
-	<footer>
-		<div id="footer-wrapper">
-			<div class="footer-leftcol">
-				<div class="header">Books. <span>Modern Developer</span></div>
-			</div>
-			<div class="footer-rightcol">
-				<span class="display-block color-686868" >&copy; 2016 Modern Developer Inc.</span>
-				<span class="color-999999">books@moderndeveloper.com</span>
-			</div>
-		</div>
-	</footer>
+    <header>
+        <div class="header-content">
+            <h1>Books.Modern Developer</h1>
+            <h1 class="tag-line">The Largest Resource of Web and Mobile Development and Programming Books</h1>
+            <div class="search">
+                <input type="text" placeholder="Search books by any  keyword or title..." class="txt" />
+                <button><i class="fa fa-search fa-2x"></i></button>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="row-center">
+            <ul>
+                <li><a href="#UI">UI/UX Design</a></li>
+                <li><a href="#Web">Web Programming</a></li>
+                <li><a href="#FE">Frontend Development</a></li>
+                <li><a href="#JS">Javascript</a></li>
+                <li><a href="#Mobile">Mobile Development</a></li>
+                <li><a href="#Backend">Backend Development</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section>
+            <div class="wrapper cf">
+                <div class="content">
+                    <header>
+                        <h2>Eloquent JavaScript:<br>A Modern Introduction to Programming</h2>
+                        <ul>
+                            <li class="author">by <a href="#">Marijn Haverbeke</a></li>
+                            <li><a href="#" class=" btn follow">Follow</a></li>
+                            <li>Published on 2015</li>
+                            <li>2nd edition</li>
+                        </ul>
+                    </header>
+                    <div class="summary">
+                        <p>JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.</p>
+                        <p>Eloquent JavaScript, 2nd Edition dives deep into the JavaScript language to show you how to write beautiful, effective code.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                    <div class="rating">
+                        <div class="scale">
+                            <ul>
+                                <li class="easy cf">
+                                    <div class="cf">
+                                        <p>Easy to follow</p>
+                                        <p class="amount">29</p>
+                                        <p class="percent cf">80%</p>
+                                    </div>
+                                    <div class="progress-container">
+                                        <div class="progress-bar" style="width:80%"></div>
+                                    </div>
+                                </li>
+                                <li class="comprehensive cf">
+                                    <div class="cf">
+                                        <p>Comprehensive</p>
+                                        <p class="amount">6</p>
+                                        <p class="percent">75%</p>
+                                    </div>
+                                    <div class="progress-container">
+                                        <div class="progress-bar" style="width:75%"></div>
+                                    </div>
+                                </li>
+                                <li class="examples">
+                                    <div class="cf">
+                                        <p>Enough Examples</p>
+                                        <p class="amount">18</p>
+                                        <p class="percent">95%</p>
+                                    </div>
+                                    <div class="progress-container">
+                                        <div class="progress-bar" style="width:95%"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul>
+                            <li><a href="#">Rate the Book</a></li>
+                            <li><a href="#">Table of Contents</a></li>
+                            <li><a href="#">Search Inside</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cover"><img src="images/book-covers/eloquent-javascript.jpg" alt=""></div>
+                <div class="slideout-overlay hidden">
+                    <div class="slideout">
+                        <input type="search">
+                        <ul>
+                            <li>&hellip; Eloquent <span class="search-highlight">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marij &hellip; <span class="page">8</span></li>
+                            <li>&hellip; Eloquent <span class="search-highlight">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marij &hellip; <span class="page">8</span></li>
+                            <li>&hellip; Eloquent <span class="search-highlight">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marij &hellip; <span class="page">8</span></li>
+                            <li>&hellip; Eloquent <span class="search-highlight">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marij &hellip; <span class="page">8</span></li>
+                            <li>&hellip; Eloquent <span class="search-highlight">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marij &hellip; <span class="page">8</span></li>
+                            <li>&hellip; Eloquent <span class="search-highlight">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marij &hellip; <span class="page">8</span></li>
+                            <li>&hellip; Eloquent <span class="search-highlight">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marij &hellip; <span class="page">8</span></li>
+                            <li>&hellip; Eloquent <span class="search-highlight">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marij &hellip; <span class="page">8</span></li>
+                            <li>&hellip; Eloquent <span class="search-highlight">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marij &hellip; <span class="page">8</span></li>
+                            <li>&hellip; Eloquent <span class="search-highlight">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marij &hellip; <span class="page">8</span></li>
+                            <li>&hellip; Eloquent <span class="search-highlight">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marij &hellip; <span class="page">8</span></li>
+                            <li>&hellip; Eloquent <span class="search-highlight">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marij &hellip; <span class="page">8</span></li>
+                            <li>&hellip; Eloquent <span class="search-highlight">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marij &hellip; <span class="page">8</span></li>
+                            <li>&hellip; Eloquent <span class="search-highlight">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marij &hellip; <span class="page">8</span></li>
+                        </ul>
+                    </div>
+                    <div class="slideout-nav">
+                        <ul>
+                            <li class="close">&#9747;</li>
+                            <li class="active">Search Inside</li>
+                            <li>Table of Contents</li>
+                            <li>Rate the Book</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <footer class="cf">
+                <ul>
+                    <li><a href="#" class="price gumroad">$28.40</a></li>
+                    <li><a href="#" class="price amazon">$29.65</a></li>
+                    <li><a href="#" class="price publisher manning">28.70</a></li>
+                    <li>
+                        <a href="#" class="bookmark"></a>
+                    </li>
+                </ul>
+            </footer>
+        </section>
+        <section>
+            <div class="wrapper cf">
+                <div class="content">
+                    <header>
+                        <h2>Eloquent JavaScript:<br>A Modern Introduction to Programming</h2>
+                        <ul>
+                            <li class="author">by <a href="#">Marijn Haverbeke</a></li>
+                            <li><a href="#" class=" btn follow">Follow</a></li>
+                            <li>Published on 2015</li>
+                            <li>2nd edition</li>
+                        </ul>
+                    </header>
+                    <div class="summary">
+                        <p>JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.</p>
+                        <p>Eloquent JavaScript, 2nd Edition dives deep into the JavaScript language to show you how to write beautiful, effective code.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                    <div class="rating">
+                        <div class="scale">
+                            <ul>
+                                <li class="easy cf">
+                                    <div class="cf">
+                                        <p>Easy to follow</p>
+                                        <p class="amount">29</p>
+                                        <p class="percent cf">80%</p>
+                                    </div>
+                                    <div class="progress-container">
+                                        <div class="progress-bar" style="width:80%"></div>
+                                    </div>
+                                </li>
+                                <li class="comprehensive cf">
+                                    <div class="cf">
+                                        <p>Comprehensive</p>
+                                        <p class="amount">6</p>
+                                        <p class="percent">75%</p>
+                                    </div>
+                                    <div class="progress-container">
+                                        <div class="progress-bar" style="width:75%"></div>
+                                    </div>
+                                </li>
+                                <li class="examples">
+                                    <div class="cf">
+                                        <p>Enough Examples</p>
+                                        <p class="amount">18</p>
+                                        <p class="percent">95%</p>
+                                    </div>
+                                    <div class="progress-container">
+                                        <div class="progress-bar" style="width:95%"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul>
+                            <li><a href="#">Rate the Book</a></li>
+                            <li><a href="#">Table of Contents</a></li>
+                            <li><a href="#">Search Inside</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cover"><img src="images/book-covers/eloquent-javascript.jpg" alt=""></div>
+                <div class="slideout-overlay hidden">
+                    <div class="slideout">
+                        <input type="search">
+                        <ul>
+                            <li>&hellip; Eloquent <span class="search-highlight">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marij &hellip; <span class="page">8</span></li>
+                            <li>&hellip; Eloquent <span class="search-highlight">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marij &hellip; <span class="page">8</span></li>
+                            <li>&hellip; Eloquent <span class="search-highlight">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marij &hellip; <span class="page">8</span></li>
+                            <li>&hellip; Eloquent <span class="search-highlight">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marij &hellip; <span class="page">8</span></li>
+                            <li>&hellip; Eloquent <span class="search-highlight">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marij &hellip; <span class="page">8</span></li>
+                            <li>&hellip; Eloquent <span class="search-highlight">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marij &hellip; <span class="page">8</span></li>
+                            <li>&hellip; Eloquent <span class="search-highlight">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marij &hellip; <span class="page">8</span></li>
+                            <li>&hellip; Eloquent <span class="search-highlight">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marij &hellip; <span class="page">8</span></li>
+                            <li>&hellip; Eloquent <span class="search-highlight">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marij &hellip; <span class="page">8</span></li>
+                            <li>&hellip; Eloquent <span class="search-highlight">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marij &hellip; <span class="page">8</span></li>
+                            <li>&hellip; Eloquent <span class="search-highlight">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marij &hellip; <span class="page">8</span></li>
+                            <li>&hellip; Eloquent <span class="search-highlight">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marij &hellip; <span class="page">8</span></li>
+                            <li>&hellip; Eloquent <span class="search-highlight">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marij &hellip; <span class="page">8</span></li>
+                            <li>&hellip; Eloquent <span class="search-highlight">JavaScript</span>, 2nd Edition. Copyright &copy; 2015 by Marij &hellip; <span class="page">8</span></li>
+                        </ul>
+                    </div>
+                    <div class="slideout-nav">
+                        <ul>
+                            <li class="close">&#9747;</li>
+                            <li class="active">Search Inside</li>
+                            <li>Table of Contents</li>
+                            <li>Rate the Book</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <footer class="cf">
+                <ul>
+                    <li><a href="#" class="price gumroad">$28.40</a></li>
+                    <li><a href="#" class="price amazon">$29.65</a></li>
+                    <li><a href="#" class="price publisher manning">28.70</a></li>
+                    <li>
+                        <a href="#" class="bookmark"></a>
+                    </li>
+                </ul>
+            </footer>
+        </section>
+    </main>
+    <footer>
+        <div id="footer-wrapper">
+            <div class="footer-leftcol">
+                <div class="header">Books. <span>Modern Developer</span></div>
+            </div>
+            <div class="footer-rightcol">
+                <span class="display-block color-686868">&copy; 2016 Modern Developer Inc.</span>
+                <span class="color-999999">books@moderndeveloper.com</span>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
