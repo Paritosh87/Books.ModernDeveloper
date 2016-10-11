@@ -498,9 +498,14 @@ section footer li:first-of-type {
 }
 
 section footer li.download {
-    padding: 10px 15px;
+    padding: 0px 40px;
     background-color: #a7c931; 
-    color: #a7c931;
+    
+}
+
+sectopm footer li.download a {
+    font-size: 1.15rem;
+    color: #fff;
 }
 
 section footer li:last-of-type {
