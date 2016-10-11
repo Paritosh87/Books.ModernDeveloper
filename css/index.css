@@ -497,6 +497,11 @@ section footer li:first-of-type {
     padding: 10px;
 }
 
+.download {
+    padding: 10px 15px;
+    background-color: #a7c931; 
+}
+
 section footer li:last-of-type {
     background-color: transparent;
     float: right;
