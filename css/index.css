@@ -485,7 +485,7 @@ section footer li {
     border-radius: 3px;
     display: inline-block;
     margin: 0 15px;
-    padding: 3px 0 3px 160px;
+    padding: 0px 0 4px 160px;
 }
 
 section footer li:first-of-type {
@@ -533,7 +533,7 @@ section footer li.manning {
 }
 
 div.publisher {
-    ddisplay: inline-block;
+    display: inline-block;
     padding: 9px 0 9px;
     text-align: center;
     vertical-align: middle;
