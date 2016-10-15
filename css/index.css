@@ -484,8 +484,9 @@ section footer li {
     background-color: #333;
     border-radius: 3px;
     display: inline-block;
+    height: 42px;
     margin: 0 15px;
-    padding: 0px 0 4px 160px;
+    padding: 0 0 0 160px;
 }
 
 section footer li:first-of-type {
