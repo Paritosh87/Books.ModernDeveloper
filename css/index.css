@@ -523,8 +523,12 @@ section footer li:last-of-type {
     background: url(../images/amazon.jpg) no-repeat;
 }
 
-.manning {
+section footer li.manning {
+    padding-left:0;
     /*background: url(../images/manning.jpg) no-repeat;*/
+}
+.manning p {
+    width: 160px;
 }
 
 /******************************************************************************
