@@ -663,3 +663,17 @@ span.page {
 .cf {
     *zoom: 1;
 }
+
+
+            
+.header-textbooks {     
+    color:#ffff;        
+    font-weight:300;        
+}       
+.header-textmoderndev {     
+    color:#f0f7d9;      
+    font-weight:200;        
+}       
+.price img {        
+  height:30px;      
+}
