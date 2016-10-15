@@ -514,6 +514,17 @@ section footer li:last-of-type {
     padding: 0;
 }
 
+.gumroad {
+    background: url(../images/first.jpg);
+}
+
+.amazon {
+    background: url(../images/second.jpg);
+}
+
+.manning {
+    background: url(../images/third.jpg);
+}
 
 /******************************************************************************
  * Section Slideout ***********************************************************
@@ -663,9 +674,7 @@ span.page {
 .cf {
     *zoom: 1;
 }
-
-
-            
+          
 .header-textbooks {     
     color:#ffff;        
     font-weight:300;        
@@ -674,6 +683,6 @@ span.page {
     color:#f0f7d9;      
     font-weight:200;        
 }       
-.price img {        
+/*.price img {        
   height:30px;      
-}
+}*/
