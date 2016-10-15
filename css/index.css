@@ -529,6 +529,10 @@ section footer li.manning {
 }
 .manning p {
     width: 160px;
+    margin: 0;
+}
+.manning p span {
+    color: #abd039;
 }
 
 /******************************************************************************
