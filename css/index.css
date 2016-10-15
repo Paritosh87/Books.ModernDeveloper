@@ -528,6 +528,7 @@ section footer li.manning {
     /*background: url(../images/manning.jpg) no-repeat;*/
 }
 .manning p {
+    display: inline-block;
     width: 160px;
     margin: 0;
 }
