@@ -528,12 +528,13 @@ section footer li.manning {
     /*background: url(../images/manning.jpg) no-repeat;*/
 }
 .manning p {
+    font-size: 1rem;
     color: #ababab;
     display: inline-block;
     width: 160px;
     margin: 0;
 }
-.manning p span {
+.manning p:last-of-type {
     color: #abd039;
 }
 
