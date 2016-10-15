@@ -525,7 +525,7 @@ section footer li:last-of-type {
 }
 
 section footer li.manning {
-    padding-left:0;
+    padding:0;
     /*background: url(../images/manning.jpg) no-repeat;*/
 }
 
