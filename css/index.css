@@ -494,6 +494,7 @@ section footer li:first-of-type {
 
 .price {
     background-color: #fff;
+    color: ##abd039;
     padding: 10px;
     border-left: 1px solid #e5e5e5;
 }
@@ -527,16 +528,20 @@ section footer li.manning {
     padding-left:0;
     /*background: url(../images/manning.jpg) no-repeat;*/
 }
+
 div.publisher {
     display: inline-block;
 }
+
 .manning p {
-    font-size: 1rem;
+    font-size: .5rem;
     color: #ababab;
     width: 160px;
     margin: 0;
+    line-height: .75rem
 }
 .manning p:last-of-type {
+    font-size: 1rem;
     color: #abd039;
 }
 
