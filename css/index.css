@@ -495,7 +495,7 @@ section footer li:first-of-type {
 .price {
     background-color: #fff;
     color: ##abd039;
-    padding: 10px;
+    padding: 8px 10px 10px 10px;
     border-left: 1px solid #e5e5e5;
     vertical-align: middle;
 }
