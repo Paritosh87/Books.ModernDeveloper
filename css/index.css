@@ -497,6 +497,7 @@ section footer li:first-of-type {
     color: ##abd039;
     padding: 10px;
     border-left: 1px solid #e5e5e5;
+    vertical-align: middle;
 }
 
 section footer li.download {
@@ -518,10 +519,12 @@ section footer li:last-of-type {
 
 .gumroad {
     background: url(../images/btn-gumroad.jpg) no-repeat;
+    vertical-align: middle;
 }
 
 .amazon {
     background: url(../images/amazon.jpg) no-repeat;
+    vertical-align: middle;
 }
 
 section footer li.manning {
@@ -530,9 +533,10 @@ section footer li.manning {
 }
 
 div.publisher {
-    display: inline-block;
-    padding-top: 5px;
+    ddisplay: inline-block;
+    padding: 9px 0 9px;
     text-align: center;
+    vertical-align: middle;
 }
 
 .manning p {
