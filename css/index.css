@@ -505,9 +505,9 @@ section footer li:first-of-type {
 }
 
 section footer li.download {
-    padding: 3px 60px;
+    padding: 0 60px;
     background-color: #a7c931; 
-    
+ 
 }
 
 section footer li.download a {
