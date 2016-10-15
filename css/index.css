@@ -527,6 +527,9 @@ section footer li.manning {
     padding-left:0;
     /*background: url(../images/manning.jpg) no-repeat;*/
 }
+div.publisher {
+    display: inline-block;
+}
 .manning p {
     font-size: 1rem;
     color: #ababab;
