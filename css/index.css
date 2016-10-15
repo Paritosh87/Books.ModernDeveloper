@@ -530,7 +530,6 @@ section footer li.manning {
 .manning p {
     font-size: 1rem;
     color: #ababab;
-    display: inline-block;
     width: 160px;
     margin: 0;
 }
