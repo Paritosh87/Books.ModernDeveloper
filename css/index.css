@@ -495,7 +495,7 @@ section footer li:first-of-type {
 .price {
     background-color: #fff;
     padding: 10px;
-    border-left: 1px solid #ccc;
+    border-left: 1px solid #e5e5e5;
 }
 
 section footer li.download {
@@ -524,7 +524,7 @@ section footer li:last-of-type {
 }
 
 .manning {
-    background: url(../images/manning.jpg) no-repeat;
+    /*background: url(../images/manning.jpg) no-repeat;*/
 }
 
 /******************************************************************************
