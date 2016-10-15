@@ -3,7 +3,7 @@
 **********************************************************/
 body {
     background-color: #f5f5f5;
-    font: 100% Roboto;
+    font: 100% Roboto Slab;
     margin: 0 auto;
 }
 
@@ -28,7 +28,7 @@ h1 {
 	text-align: left;
 	margin-left: 100px;
 	margin-top: 5px;
-	/*font-family: roboto;*/
+	/*font-family: Roboto Slab;*/
 	margin-bottom: 3px
 }
 
@@ -37,6 +37,7 @@ h1 {
 	 margin: 0px;
 	 margin-left: 100px;
 	 color: #6B8607;
+     font-weight: 500;
 }
 
 /***********************************
@@ -76,27 +77,27 @@ button {
 ::-webkit-input-placeholder {
 	color: #a8bb6a;
 	font-size: 1.25em;
-	font: Roboto;
+	font: Roboto Slab;
 }
 
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
    color: #a8bb6a;
    opacity: 1;
    	font-size: 1.25em;
-	font: Roboto;
+	font: Roboto Slab;
 }
 
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
    color: #a8bb6a;
    opacity: 1;
    	font-size: 1.25em;
-	font: Roboto;
+	font: Roboto Slab;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
    color: #a8bb6a;
    	font-size: 1.25em;
-	font: Roboto;
+	font: Roboto Slab;
 }
 
 /*************************************
@@ -132,7 +133,7 @@ li a:hover {
 
 footer {
 	width: 100%;
-	height: 150px;
+	/*height: 150px;*/
 	background-color: rgb(58,58,58);
 	/*border: 1px solid blue;*/
 	font-size: 20px;
@@ -204,7 +205,7 @@ display: block;
  ******************************************************************************/
 
 main {
-    font-family: Roboto;
+    font-family: Roboto Slab;
     line-height: 1.8;
     padding-top: 20px;
 }
@@ -232,7 +233,7 @@ section .wrapper {
 }
 
 .content h2 {
-    font: 400 1.8rem Roboto;
+    font: 400 1.8rem Roboto Slab;
     margin: 0;
 }
 
@@ -458,7 +459,7 @@ section footer li {
     border-radius: 3px;
     display: inline-block;
     margin: 0 15px;
-    padding: 0 0 0 120px;
+    padding: 0 0 0 0px;
 }
 
 
@@ -618,4 +619,18 @@ span.page {
 
 .cf {
     *zoom: 1;
+}
+
+.header-textbooks {
+    color:#ffff;
+    font-weight:300;
+}
+
+.header-textmoderndev {
+    color:#f0f7d9;
+    font-weight:200;
+}
+
+.price img {
+  height:30px;
 }
