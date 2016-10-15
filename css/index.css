@@ -515,15 +515,15 @@ section footer li:last-of-type {
 }
 
 .gumroad {
-    background: url(../images/btn-gumroad.jpg);
+    background: url(../images/btn-gumroad.jpg) no-repeat;
 }
 
 .amazon {
-    background: url(../images/amazon.jpg);
+    background: url(../images/amazon.jpg) no-repeat;
 }
 
 .manning {
-    background: url(../images/manning.jpg);
+    background: url(../images/manning.jpg) no-repeat;
 }
 
 /******************************************************************************
