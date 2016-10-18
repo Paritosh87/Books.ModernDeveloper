@@ -137,8 +137,8 @@ nav li a {
     text-decoration: none;
 }
 
-nav li a:hover {
-    color: green;
+nav li a:hover, nav li a.active{
+    color: #acc95c;
 }
 
 
